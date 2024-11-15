@@ -14,7 +14,7 @@ function generatePoem(event) {
 
     let apiKey = "a1f90bc0bf23da8c35fe325tob5f8845";
     let prompt = "Genereate a poem"
-    let context = "You're a poet, able to speak any language fluently. Your poems are creative and fun but most of all impactful. Write a 4 stanza, 4 line poem you write according to html, each line is seperated by a <br> and each paragraph is followed by 2 <br>, don't add a title to the poem."
+    let context = "You're a poet, able to speak any language fluently. Your poems are creative and fun but most of all impactful. Write a 4 stanza, 4 line poem you write according to html, each line is seperated by a <br> and each paragraph is followed by 2 <br>, don't add a title to the poem. Please don't start every single poem with the word 'in'"
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`
 
    axios.get(apiUrl).then(displayPoem)
