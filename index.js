@@ -1,2 +1,15 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
+function generatePoem(event) {
+    event.preventDefault();
+
+   
+    let poemBox = document.querySelector("#poem");
+
+    new Typewriter('#poem', {
+  strings: ['Hello World'],
+        autoStart: true,
+        loop:true
+});
+}
+
+let poemFormElement = document.querySelector("#poem-generator-form")
+poemFormElement.addEventListener("submit", generatePoem)
