@@ -1,12 +1,9 @@
-.edu-au-vic-wa-nt-pre-<uniquifier> {
+.edu-au-vic-wa-nt-pre{
   font-family: "Edu AU VIC WA NT Pre", cursive;
-  font-optical-sizing: auto;
-  font-weight: 20px;
-  font-style: normal;
 }
 
 body{
-    background-color: blueviolet;
+    background-color: tomato;
     color: aliceblue;
     font-family: "Edu AU VIC WA NT Pre", cursive;
     margin: 30px;
