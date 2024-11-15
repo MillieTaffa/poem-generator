@@ -6,6 +6,44 @@ body{
     background-color: tomato;
     color: aliceblue;
     font-family: "Edu AU VIC WA NT Pre", cursive;
-    margin: 30px;
+    text-align: center;
+		cursor: default;
+}
 
+main {
+    background-color: rgba(240, 248, 255, 0.244);
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+		box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+footer{
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: pink;
+	cursor: pointer;
+}
+
+.search,.go{
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: 15px;
+	color: aliceblue;
+}
+
+.go:hover{
+	background-color: tomato;
+	cursor: pointer;
+}
+.go:active{
+	background-color: rgb(207, 70, 45);
 }
